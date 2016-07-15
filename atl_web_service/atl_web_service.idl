@@ -1,0 +1,18 @@
+// atl_web_service.idl : IDL source for atl_web_service
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (atl_web_service.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(26C2A891-7944-4D05-BE37-D28DF9F9FC94),
+	version(1.0),
+]
+library atl_web_serviceLib
+{
+	importlib("stdole2.tlb");
+};
+

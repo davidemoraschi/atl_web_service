@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atl_web_service", "atl_web_service\atl_web_service.vcxproj", "{A2312BA4-ADA3-4722-954A-DC6C2B38D301}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atl_web_servicePS", "atl_web_service\atl_web_servicePS.vcxproj", "{30330371-3CD6-430B-A846-DFE7C2E71B32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2312BA4-ADA3-4722-954A-DC6C2B38D301} = {A2312BA4-ADA3-4722-954A-DC6C2B38D301}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2312BA4-ADA3-4722-954A-DC6C2B38D301}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2312BA4-ADA3-4722-954A-DC6C2B38D301}.Debug|Win32.Build.0 = Debug|Win32
+		{A2312BA4-ADA3-4722-954A-DC6C2B38D301}.Release|Win32.ActiveCfg = Release|Win32
+		{A2312BA4-ADA3-4722-954A-DC6C2B38D301}.Release|Win32.Build.0 = Release|Win32
+		{30330371-3CD6-430B-A846-DFE7C2E71B32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30330371-3CD6-430B-A846-DFE7C2E71B32}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
